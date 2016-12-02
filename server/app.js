@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const cors = require('cors')
+const cors = require('cors');
 
 app.use(cors());
 
@@ -20,11 +20,24 @@ const cerial = [{
   {
     id: 3,
     quote: "Oops-All-The-Berries!"
-  }];
+  },
+  {
+    id: 4,
+    quote: "Peanut Butter Crunch!"
+  },
+  {
+    id: 5,
+    quote: "Fun Holiday Shapes!"
+  },
+  {
+    id: 6,
+    quote: "Stays crunchy, even in milk!"
+  }
+
+];
 
 
 
 app.get('/cerial', function(req, res, next){
   res.send(cerial);
-  console.log('hi');
 });
