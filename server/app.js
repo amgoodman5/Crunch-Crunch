@@ -20,7 +20,21 @@ const cerial = [{
   {
     id: 3,
     quote: "Oops-All-The-Berries!"
-  }];
+  },
+  {
+    id: 4,
+    quote: "Peanut Butter Crunch!"
+  },
+  {
+    id: 5,
+    quote: "Fun Holiday Shapes!"
+  },
+  {
+    id: 6,
+    quote: "Stays crunchy, even in milk!"
+  }
+
+];
 
 
 
